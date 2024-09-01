@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* nav  */
+.nav{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin: 20px 0;
+  background-color: #1565c0;
+  padding: 20px;
+}
+.nav a{
+  text-decoration: none;
+  color: aqua;
+}
+.nav a.active{
+  color: indigo;
+}
+.center{
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  color: #1565c0;
+}
